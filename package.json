@@ -1,0 +1,47 @@
+{
+  "name": "indecsion-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server ./public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^5.0.0",
+    "env-cmd": "^10.1.0",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.3",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.1.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "moment": "^2.29.1",
+    "normalize.css": "^8.0.1",
+    "react": "^16.14.0",
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-dates": "^21.8.0",
+    "react-dom": "^16.14.0",
+    "react-modal": "^3.11.2",
+    "react-redux": "^7.2.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "uuid": "^8.3.1",
+    "validator": "^13.1.17"
+  }
+}
